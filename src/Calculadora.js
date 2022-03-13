@@ -14,6 +14,3 @@ class Calculadora{
 }
 
 module.exports = Calculadora
-
-let calculadora = new Calculadora()
-console.log(calculadora.soma(1,3));
