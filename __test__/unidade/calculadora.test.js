@@ -11,7 +11,7 @@ describe('Calculadora', () => {
     it("deve retornar a divisao de 2 / 2 = 1", async () => {
       expect(calculadora.divisao(2,2)).toBe(1);
     });
-    it("deve retornar a multiplicacao de 2 * 2 = a", async () => {
+    it("deve retornar a multiplicacao de 2 * 2 = 4", async () => {
       expect(calculadora.multpicacao(2,2)).toBe(4);
     });
 });
